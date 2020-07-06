@@ -65,18 +65,16 @@ body {
     }
 }
 
-.modal {
-    .modal-body {
-        background: $background-pale;
-    }
-    .modal-header {
-        background-color: $background-dark;
-        color: floralwhite;
-        font-weight: bold;
-    }
+.modal-header {
+    background-color: $background-dark;
+    color: floralwhite;
     .close {
         color: floralwhite;
     }
+}
+
+.modal-body {
+    background: $background-pale;
 }
 
 #carouselButton {
