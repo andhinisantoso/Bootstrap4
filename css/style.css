@@ -45,21 +45,21 @@ body {
     padding: 10px;
 }
 
-.carousel {
-    background: #512DA8;
-}
-
 .modal-header {
     background: #512DA8;
     color: floralwhite;
 }
 
-.close {
+.modal-header .close {
     color: #D1C4E9;
 }
 
 .modal-body {
     background-color: #D1C4E9;
+}
+
+.carousel {
+    background: #512DA8;
 }
 
 .carousel .carousel-item {
